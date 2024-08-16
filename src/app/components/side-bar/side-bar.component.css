@@ -1,0 +1,46 @@
+
+aside{
+  margin: 10px;
+  padding: 50px;
+  background-color: #161A27;
+  width: 200px;
+  height: 800px;
+  border-radius: 50px;
+  border: 2px solid #2A324B;
+  color: #EEEEEE;
+  font-size: larger;
+  display: flex;
+  justify-content: space-between;
+}
+
+#sideButtons{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+
+
+}
+button{
+  background-color: #f49668;
+  height: 60px;
+  width: 60px;
+  border: none;
+  border-radius: 50%;
+  position: relative;
+
+  transition: transform 0.2s ease-in, width 0.2s ease, height 0.2s ease;
+
+  right: -80px;
+}
+button:hover{
+  transform: scale(1.2);
+  /*outline: 4px solid #F28954;*/
+  cursor: pointer;
+}
+
+.material-symbols-rounded{
+   color: #161A27;
+  font-size: 2.2em;
+}
