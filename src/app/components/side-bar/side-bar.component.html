@@ -3,17 +3,22 @@
     <span class="material-symbols-rounded">menu</span>
   </button>
   <div id="sidePanel" [ngClass]="{'hidden': !isSideBarBeingDisplayed}">
-    <div class="textContent">
-      <p>Cokolwiek</p>
-      <p>Lorem ipsum textum separatum continuum </p>
-      <p>Link 1 - <a href="#">github.com/VeniQs02</a></p>
-      <p>Link 2 - <a href="#">github.com/VeniQs02</a></p>
-      <p>Link 3 - <a href="#">github.com/VeniQs02</a></p>
+    <div class="topPanel">
+      <div class="textContent">
+        <p>Cokolwiek</p>
+        <p>Lorem ipsum textum separatum continuum</p>
+      </div>
+      <div class="sideButtons">
+        <button (click)="toggleSideBar()"><span class="material-symbols-rounded">close</span></button>
+        <button><span class="material-symbols-rounded">accessibility</span></button>
+        <button (click)="toggleLanguageSelection()"><span class="material-symbols-rounded">language</span></button>
+      </div>
     </div>
-    <div class="sideButtons">
-      <button (click)="toggleSideBar()"><span class="material-symbols-rounded">close</span></button>
-      <button><span class="material-symbols-rounded">accessibility</span></button>
-      <button (click)="toggleLanguageSelection()"><span class="material-symbols-rounded">language</span></button>
+    <div class="bottomPanel">
+    <p>Lorem ipsum textum separatum continuum </p>
+    <p>Link 1 <a href="#">github.com/VeniQs02</a></p>
+    <p>Link 2 <a href="#">github.com/VeniQs02</a></p>
+    <p>Link 3 <a href="#">github.com/VeniQs02</a></p>
     </div>
   </div>
 </aside>
