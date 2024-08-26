@@ -1,9 +1,25 @@
-
 aside{
+  width: 350px;
+}
+
+#menuButton{
+  display: block;
+  position: absolute;
+  margin-top: 42px;
+  top: 20px;
+  left: 20px;
+  background-color: #161A27;
+}
+
+#menuButton .material-symbols-rounded {
+  color: #FFFFFF;
+}
+
+#sidePanel{
   margin: 10px;
   padding: 50px;
   background-color: #161A27;
-  width: 200px;
+  width: 270px;
   height: 800px;
   border-radius: 50px;
   border: 2px solid #2A324B;
@@ -11,16 +27,34 @@ aside{
   font-size: larger;
   display: flex;
   justify-content: space-between;
+  transition: transform 0.4s ease-in-out;
+  z-index: 1;
+  /*box-shadow:*/
+  /*  #EEEEEE  1px 1px 2px inset,*/
+  /*  #EEEEEE -1px 1px 2px inset,*/
+  /*  #EEEEEE -1px -1px 2px inset,*/
+  /*  #EEEEEE  1px -1px 2px inset;*/
 }
 
-#sideButtons{
+
+.textContent{
+  overflow: hidden;
+
+}
+
+.textContent a{
+  font-size: smaller;
+}
+
+.sideButtons{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  height: 100%;
-
-
+  /*justify-content: space-around;*/
+  /*height: 100%;*/
+  /*align-items: center;*/
+  gap: 50px;
+  position: relative;
+  right: -80px;
 }
 button{
   background-color: #f49668;
@@ -28,19 +62,22 @@ button{
   width: 60px;
   border: none;
   border-radius: 50%;
-  position: relative;
-
   transition: transform 0.2s ease-in, width 0.2s ease, height 0.2s ease;
 
-  right: -80px;
 }
 button:hover{
   transform: scale(1.2);
-  /*outline: 4px solid #F28954;*/
   cursor: pointer;
 }
 
 .material-symbols-rounded{
-   color: #161A27;
-  font-size: 2.2em;
+  color: #161A27;
+  font-size: 2.5em;
 }
+
+.hidden {
+  display: none;
+  transform: translateX(-120%);
+  pointer-events: none;
+}
+
