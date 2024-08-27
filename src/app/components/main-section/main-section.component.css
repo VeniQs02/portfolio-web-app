@@ -6,4 +6,8 @@ section{
   margin: 10px 10px 0  40px;
   border-radius: 50px;
   color: #EEEEEE;
+  transition: transform 0.4s ease-in-out;
+}
+.centered{
+  transform: translateX(-150px);
 }
