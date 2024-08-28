@@ -6,10 +6,11 @@ aside{
   display: block;
   position: fixed;
   margin-top: 42px;
-  top: 20px;
-  left: 20px;
+  top: 15px;
+  left: 20vh;
   background-color: #161A27;
   /*border: 1px solid #FFFFFF;*/
+  transition: display 1s ease-in;
 }
 
 #menuButton .material-symbols-rounded {
@@ -29,7 +30,7 @@ aside{
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  transition: transform 0.4s ease-in-out;
+  transition: transform 0.5s ease-in-out;
   position: fixed;
   z-index: 5;
   /*box-shadow:*/
@@ -49,7 +50,7 @@ aside{
 }
 
 .bottomPanel a:hover{
-  color: #FFFFFF;
+  color: #EF6F2E;
 }
 
 .textContent{
@@ -69,7 +70,7 @@ aside{
 }
 
 .sideButtons button:hover{
-  background-color: #FFFFFF;
+  background-color: #EF6F2E;
 }
 
 button{
@@ -93,7 +94,7 @@ button:hover{
 
 .hidden {
   display: none;
-  transform: translateX(-120%);
+  transform: translateX(-150%);
   pointer-events: none;
 }
 

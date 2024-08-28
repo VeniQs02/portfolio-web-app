@@ -1,21 +1,17 @@
 <div class="topButtonPanel">
-  <button>pep.net</button>
-  <button>RepositoryLister</button>
-  <button>Medpics</button>
-  <button>TicTacToe</button>
+  <button
+    [ngClass]="{ 'selectedButton': selectedTab.value === 'pepnet' }"
+    id="pepnet" class="selectedButton" (click)="switchSelectedTab('pepnet')">Pep.net</button>
+  <button
+    [ngClass]="{ 'selectedButton': selectedTab.value === 'repositorylister' }"
+    id="repositorylister" (click)="switchSelectedTab('repositorylister')">RepositoryLister</button>
+  <button
+    [ngClass]="{ 'selectedButton': selectedTab.value === 'medpics' }"
+    id="medpics" (click)="switchSelectedTab('medpics')">MedpicsAnalisys</button>
+  <button
+    [ngClass]="{ 'selectedButton': selectedTab.value === 'tictactoe' }"
+    id="tictactoe" (click)="switchSelectedTab('tictactoe')">TicTacToe</button>
 </div>
 <div class="displayedProject">
-  <section id="pepnet">
-    <img ngSrc="" alt="">
-    <a>Link do repozytorium</a>
-  </section>
-  <section id="repositorylister">
-
-  </section>
-  <section id="medpics">
-
-  </section>
-  <section id="tictactoe">
-
-  </section>
+  <project-info [selectedTabSubject]="selectedTab" ></project-info>
 </div>
