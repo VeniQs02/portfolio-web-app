@@ -9,7 +9,7 @@ aside{
   top: 20px;
   left: 20px;
   background-color: #161A27;
-  border: 1px solid #FFFFFF;
+  /*border: 1px solid #FFFFFF;*/
 }
 
 #menuButton .material-symbols-rounded {
@@ -17,12 +17,12 @@ aside{
 }
 
 #sidePanel{
-  margin: 10px 0 0 10px;
+  margin: 5px 0 0 0;
   padding: 50px;
   background-color: #161A27;
   width: 270px;
   height: 800px;
-  border-radius: 50px;
+  border-radius: 20px;
   border: 2px solid #2A324B;
   color: #EEEEEE;
   font-size: larger;
@@ -45,11 +45,11 @@ aside{
 }
 
 .bottomPanel a{
-  color: #F28954;
+  color: #f28954;
 }
 
 .bottomPanel a:hover{
-  color: #EEEEEE;
+  color: #FFFFFF;
 }
 
 .textContent{
@@ -67,8 +67,13 @@ aside{
   position: relative;
   right: -80px;
 }
+
+.sideButtons button:hover{
+  background-color: #FFFFFF;
+}
+
 button{
-  background-color: #f49668;
+  background-color: #f28954;
   height: 60px;
   width: 60px;
   border: none;

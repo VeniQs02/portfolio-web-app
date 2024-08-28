@@ -3,12 +3,13 @@ section{
   z-index: 0;
   background-color: #161A27;
   padding: 80px;
-  margin: 10px 10px 0  40px;
-  border-radius: 50px;
+  margin: 5px 0 0 25px;
+  border-radius: 20px;
   color: #EEEEEE;
   transition: transform 0.4s ease-in-out;
-  width: 72vw;
+  width: 73vw;
 }
 .centered{
   transform: translateX(-150px);
 }
+

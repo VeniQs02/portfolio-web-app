@@ -1,0 +1,24 @@
+.topButtonPanel{
+  display: flex;
+}
+.topButtonPanel button{
+  width: 100%;
+  padding: 20px;
+  border: #EEEEEE solid 1px;
+  border-bottom: #161A27 solid 1px;
+  background: #161A27;
+  color: #EEEEEE;
+
+
+}
+.topButtonPanel button:hover{
+  background: #EEEEEE;
+  color: #161A27;
+  cursor: pointer;
+}
+
+.displayedProject{
+  background: #EEEEEE;
+  width: 100%;
+  height: 50vh;
+}
