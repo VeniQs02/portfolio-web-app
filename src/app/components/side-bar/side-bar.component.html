@@ -5,20 +5,29 @@
   <div id="sidePanel" [ngClass]="{'hidden': !isSideBarBeingDisplayed}">
     <div class="topPanel">
       <div class="textContent">
-        <p>Cokolwiek</p>
-        <p>Lorem ipsum textum separatum continuum</p>
+        <div>
+          <p class="title">Portfolio</p>
+          <p class="link">Jakub Kańgowski - Junior Web Developer</p>
+          <img ngSrc="assets/MOZAJKA.PNG" height="150" width="150" alt="">
+        </div>
+        <div class="downloadResume">
+          <button class="downloadResumeButton">
+              <p>Pobierz CV</p>
+            <i class="icss-download"></i>
+          </button>
+        </div>
       </div>
       <div class="sideButtons">
-        <button (click)="toggleSideBar()"><span class="material-symbols-rounded">close</span></button>
-        <button><span class="material-symbols-rounded">accessibility</span></button>
-        <button (click)="toggleLanguageSelection()"><span class="material-symbols-rounded">language</span></button>
+        <button class="sideButton" (click)="toggleSideBar()"><span class="material-symbols-rounded">close</span></button>
+        <button class="sideButton"><span class="material-symbols-rounded">accessibility</span></button>
+        <button class="sideButton" (click)="toggleLanguageSelection()"><span class="material-symbols-rounded">language</span></button>
       </div>
     </div>
     <div class="bottomPanel">
-    <p>Lorem ipsum textum separatum continuum </p>
-    <p>Link 1 <a href="#">github.com/VeniQs02</a></p>
-    <p>Link 2 <a href="#">github.com/VeniQs02</a></p>
-    <p>Link 3 <a href="#">github.com/VeniQs02</a></p>
+    <p>Zainteresowany współpracą? <br> - Odezwij się! </p>
+    <p class="linkText">GitHub</p><a href="https://github.com/VeniQs02" class="link">github.com/VeniQs02</a>
+    <p class="linkText">LinkedIn</p><a href="https://www.linkedin.com/in/jakub-ka%C5%84gowski-a19258245/" class="link">linkedin.com/in/jakub-kańgowski</a>
+    <p class="linkText">E-mail</p><a href="mailto:jakub.kangowski7@vp.pl" class="link">jakub.kangowski7&#64;vp.pl</a>
     </div>
   </div>
 </aside>

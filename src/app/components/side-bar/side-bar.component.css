@@ -1,5 +1,84 @@
 aside{
-  width: 350px;
+  width: 320px;
+}
+#menuButton .material-symbols-rounded {
+  color: #FFFFFF;
+}
+
+#sidePanel{
+  margin: 5px 0 0 0;
+  padding: 50px;
+  background-color: #161A27;
+  width: 240px;
+  border-radius: 20px;
+  border: 2px solid #2A324B;
+  color: #EEEEEE;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.5s ease-in-out;
+  position: fixed;
+  z-index: 5;
+}
+.hidden {
+  display: none;
+  transform: translateX(-150%);
+  pointer-events: none;
+}
+.topPanel{
+  display: flex;
+  flex-direction: row;
+}
+.title{
+  margin: 0;
+}
+img{
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.bottomPanel{
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.link{
+  color: #f28954;
+  font-size: 16px;
+}
+.link:hover{
+  color: #EF6F2E;
+}
+.linkText{
+  margin: 5px;
+  transform: translateX(-15px);
+}
+.textContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.downloadResume i{
+  font-size: larger;
+}
+.downloadResumeButton{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #f28954;
+  color: #161A27;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  transition: transform 0.2s ease-in, width 0.2s ease, height 0.2s ease;
+}
+.downloadResumeButton:hover{
+  background-color: #EF6F2E;
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 #menuButton{
@@ -9,80 +88,35 @@ aside{
   top: 15px;
   left: 20vh;
   background-color: #161A27;
-  /*border: 1px solid #FFFFFF;*/
   transition: display 1s ease-in;
-}
 
-#menuButton .material-symbols-rounded {
-  color: #FFFFFF;
-}
-
-#sidePanel{
-  margin: 5px 0 0 0;
-  padding: 50px;
-  background-color: #161A27;
-  width: 270px;
-  height: 800px;
-  border-radius: 20px;
-  border: 2px solid #2A324B;
-  color: #EEEEEE;
-  font-size: larger;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  transition: transform 0.5s ease-in-out;
-  position: fixed;
-  z-index: 5;
-  /*box-shadow:*/
-  /*  #EEEEEE  1px 1px 2px inset,*/
-  /*  #EEEEEE -1px 1px 2px inset,*/
-  /*  #EEEEEE -1px -1px 2px inset,*/
-  /*  #EEEEEE  1px -1px 2px inset;*/
-}
-
-.topPanel{
-  display: flex;
-  flex-direction: row;
-}
-
-.bottomPanel a{
-  color: #f28954;
-}
-
-.bottomPanel a:hover{
-  color: #EF6F2E;
-}
-
-.textContent{
-  overflow: hidden;
-
+  height: 60px;
+  width: 60px;
+  border: none;
+  border-radius: 50%;
 }
 
 .sideButtons{
   display: flex;
   flex-direction: column;
-  /*justify-content: space-around;*/
-  /*height: 100%;*/
-  /*align-items: center;*/
   gap: 50px;
   position: relative;
   right: -80px;
 }
 
-.sideButtons button:hover{
-  background-color: #EF6F2E;
-}
 
-button{
+
+
+.sideButton{
   background-color: #f28954;
   height: 60px;
   width: 60px;
   border: none;
   border-radius: 50%;
   transition: transform 0.2s ease-in, width 0.2s ease, height 0.2s ease;
-
 }
-button:hover{
+.sideButton:hover{
+  background-color: #EF6F2E;
   transform: scale(1.2);
   cursor: pointer;
 }
@@ -92,9 +126,5 @@ button:hover{
   font-size: 2.5em;
 }
 
-.hidden {
-  display: none;
-  transform: translateX(-150%);
-  pointer-events: none;
-}
+
 

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {NgClass, NgIf} from "@angular/common";
+import {NgClass, NgIf, NgOptimizedImage} from "@angular/common";
 import {SideBarStateService} from "../../services/side-bar-state.service";
 
 @Component({
@@ -7,7 +7,8 @@ import {SideBarStateService} from "../../services/side-bar-state.service";
   standalone: true,
   imports: [
     NgClass,
-    NgIf
+    NgIf,
+    NgOptimizedImage
   ],
   templateUrl: './side-bar.component.html',
   styleUrls: ['./side-bar.component.css']
