@@ -6,9 +6,8 @@ section{
   padding: 20px;
 }
 
-img{
-  width: 20%;
-  height: auto;
+image-carousel{
+  margin-bottom: 20px;
 }
 
 h3, p{

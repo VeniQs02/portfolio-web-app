@@ -1,16 +1,16 @@
 <div class="topButtonPanel">
   <button
     [ngClass]="{ 'selectedButton': selectedTab.value === 'pepnet' }"
-    id="pepnet" class="selectedButton" (click)="switchSelectedTab('pepnet')">Pep.net</button>
+    id="pepnet" class="selectedButton" (click)="switchSelectedTab('pepnet')">E-sklep piekarni</button>
   <button
     [ngClass]="{ 'selectedButton': selectedTab.value === 'repositorylister' }"
-    id="repositorylister" (click)="switchSelectedTab('repositorylister')">RepositoryLister</button>
+    id="repositorylister" (click)="switchSelectedTab('repositorylister')">API wypisujące repozytoria</button>
   <button
     [ngClass]="{ 'selectedButton': selectedTab.value === 'medpics' }"
-    id="medpics" (click)="switchSelectedTab('medpics')">MedpicsAnalisys</button>
+    id="medpics" (click)="switchSelectedTab('medpics')">Analiza zdjęć rentgenowskich</button>
   <button
-    [ngClass]="{ 'selectedButton': selectedTab.value === 'tictactoe' }"
-    id="tictactoe" (click)="switchSelectedTab('tictactoe')">TicTacToe</button>
+    [ngClass]="{ 'selectedButton': selectedTab.value === 'scheduleapp' }"
+    id="scheduleapp" (click)="switchSelectedTab('scheduleapp')">E-rezerwacja sprzętu</button>
 </div>
 <div class="displayedProject">
   <project-info [selectedTabSubject]="selectedTab" ></project-info>

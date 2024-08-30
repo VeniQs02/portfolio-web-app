@@ -1,0 +1,23 @@
+.carousel-item img {
+  height: 500px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 1px solid #2A324B;
+  max-width: 99%;
+}
+.carousel-item{
+  display: flex;
+  justify-content: center;
+}
+p-carousel{
+  color: #EEEEEE;
+}
+:host::ng-deep .p-carousel-prev, :host::ng-deep.p-carousel-next{
+  height: 50px;
+  width: 50px;
+  background: #2A324B;
+  border-radius: 10px;
+  border-width: 0;
+  color: #EEEEEE;
+}
+
