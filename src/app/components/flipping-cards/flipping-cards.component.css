@@ -23,6 +23,7 @@ p{
 
 .rectangle {
   background-color: #EEEEEE;
+  width: 240px;
   max-width: 300px;
   height: 300px;
   border-radius: 20px;
@@ -30,7 +31,6 @@ p{
   position: relative;
   transform-style: preserve-3d;
   cursor: pointer;
-  min-width: 240px; /* Ensures the rectangles don't shrink too much */
 }
 
 .rectangle-content, .rectangle-back {
@@ -60,4 +60,34 @@ p{
 
 .rectangle:hover {
   transform: rotateY(180deg);
+}
+
+@media screen and (max-width: 1700px){
+  .rectangle {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 1420px){
+  .rectangle {
+    font-size: smaller;
+    width: 160px;
+  }
+}
+@media screen and (max-width: 1200px){
+  .rectangle {
+    font-size: larger;
+    width: 240px;
+  }
+}
+@media screen and (max-width: 800px){
+  .rectangle {
+    width: 200px;
+    font-size: smaller;
+  }
+}
+@media screen and (max-width: 600px){
+  .rectangle {
+    width: 180px;
+  }
 }

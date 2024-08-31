@@ -6,4 +6,11 @@
 
 main-section h2{
   text-align: center;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1420px){
+  side-bar{
+    display: none;
+  }
 }
