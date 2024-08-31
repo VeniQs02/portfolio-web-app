@@ -3,13 +3,21 @@ section{
   z-index: 0;
   background-color: #161A27;
   padding: 50px;
-  margin: 5px 0 0 25px;
+  margin: 5px 0 0 0;
   border-radius: 20px;
   color: #EEEEEE;
   transition: transform 0.4s ease-in-out;
   width: 65vw;
+  box-shadow: 0 0 50px -10px #161A27;
+
 }
 .centered{
-  transform: translateX(-150px);
+  transform: translateX(-160px);
 }
 
+@media screen and (max-width: 600px){
+  section{
+    padding: 30px;
+    width: 90vw;
+  }
+}

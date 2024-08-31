@@ -21,10 +21,9 @@ p{
 
 .technologies{
   display: flex;
-  gap: 10px;
 }
 ul:first-of-type{
-  padding-right:20px;
+  padding-right:30px;
   border-right: #161A27 1px solid;
 }
 li{
@@ -37,4 +36,16 @@ a{
 
 a:hover{
   color: #EF6F2E;
+}
+
+@media screen and (max-width: 750px){
+  .technologies{
+    flex-direction: column;
+  }
+  ul:first-of-type{
+    padding-right: 0;
+    padding-bottom: 30px;
+    border-right: none;
+    border-bottom: #161A27 1px solid;
+  }
 }

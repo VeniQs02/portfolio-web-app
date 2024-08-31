@@ -1,9 +1,13 @@
 .carousel-item img {
-  height: 500px;
+  max-height: 800px;
   border-radius: 10px;
   object-fit: cover;
   border: 1px solid #2A324B;
   max-width: 99%;
+  min-height: 200px;
+}
+:host::ng-deep.p-carousel-items-container{
+  align-items: center;
 }
 .carousel-item{
   display: flex;
@@ -19,5 +23,16 @@ p-carousel{
   border-radius: 10px;
   border-width: 0;
   color: #EEEEEE;
+}
+
+@media screen and (max-width: 600px){
+  :host::ng-deep .p-carousel-prev, :host::ng-deep.p-carousel-next{
+    height: 200px;
+  }
+}
+@media screen and (max-width: 400px){
+  :host::ng-deep .p-carousel-prev, :host::ng-deep.p-carousel-next{
+    width: 30px;
+  }
 }
 

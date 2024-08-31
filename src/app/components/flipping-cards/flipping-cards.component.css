@@ -89,5 +89,12 @@ p{
 @media screen and (max-width: 600px){
   .rectangle {
     width: 180px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 400px){
+  .rectangle {
+    width: 130px;
+    font-size: 16px;
   }
 }

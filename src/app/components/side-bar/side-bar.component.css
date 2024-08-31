@@ -9,9 +9,9 @@ aside{
   margin: 5px 0 0 0;
   padding: 50px;
   background-color: #161A27;
-  width: 240px;
+  width: 215px;
   border-radius: 20px;
-  border: 2px solid #2A324B;
+  /*border: 2px solid #2A324B;*/
   color: #EEEEEE;
   font-size: 24px;
   display: flex;
@@ -19,9 +19,10 @@ aside{
   transition: transform 0.5s ease-in-out;
   position: fixed;
   z-index: 5;
+  box-shadow: 0 0 50px -10px #161A27;
+
 }
 .hidden {
-  display: none;
   transform: translateX(-250%);
   pointer-events: none;
 }
@@ -90,7 +91,7 @@ img{
   display: block;
   position: fixed;
   top: 47px;
-  left: 160px;
+  left: 120px;
   background-color: #161A27;
   transition: transform 0.2s ease-in;
 
@@ -98,6 +99,8 @@ img{
   width: 60px;
   border: none;
   border-radius: 50%;
+  box-shadow: 0 0 100px -15px #161A27;
+
 }
 #menuButton:hover{
   transform: scale(1.2);
@@ -109,7 +112,7 @@ img{
   flex-direction: column;
   gap: 50px;
   position: relative;
-  right: -110px;
+  right: -85px;
 }
 .sideButton{
   background-color: #f28954;
