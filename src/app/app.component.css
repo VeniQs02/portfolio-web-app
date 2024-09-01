@@ -9,9 +9,10 @@ main-section h2{
   margin: 0 0 20px 0;
   padding-bottom: 10px;
   color: #EF6F2E;
+}
+.firstHeading{
   border-bottom: 1px solid #EEE;
 }
-
 .top-bar{
   display:none;
 }
