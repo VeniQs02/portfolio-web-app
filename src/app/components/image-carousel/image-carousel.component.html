@@ -1,7 +1,11 @@
 <p-carousel [value]="images" [numVisible]="visible" [numScroll]="scroll" [circular]="false" [showIndicators]="false">
   <ng-template pTemplate="item" let-image>
-    <div class="carousel-item">
+    <div class="carousel-item" (click)="openImage(image)">
       <img [src]="image" alt="Carousel Image" />
     </div>
   </ng-template>
 </p-carousel>
+
+<div class="fullscreen-overlay" *ngIf="isImageOpen" (click)="closeImage()">
+  <img [src]="selectedImage" alt="Enlarged Image" class="fullscreen-image" (click)="$event.stopPropagation()"/>
+</div>

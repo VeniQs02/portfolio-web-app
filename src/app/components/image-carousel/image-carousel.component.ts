@@ -14,7 +14,10 @@ export class ImageCarouselComponent implements OnInit {
   @Input({transform: numberAttribute}) quantity: number = 0;
   @Input({transform: numberAttribute}) visible: number = 1;
   @Input({transform: numberAttribute}) scroll: number = 1;
+
   images: string[] = [];
+  isImageOpen: boolean = false;
+  selectedImage: string | null = null;
 
   ngOnInit(): void {
     this.loadImages();
@@ -24,5 +27,15 @@ export class ImageCarouselComponent implements OnInit {
     for (let i = 1; i <= this.quantity; i++) {
       this.images.push(`/assets/${this.project}/image${i}.png`);
     }
+  }
+
+  openImage(image: string) {
+    this.selectedImage = image;
+    this.isImageOpen = true;
+  }
+
+  closeImage() {
+    this.isImageOpen = false;
+    this.selectedImage = null;
   }
 }
