@@ -1,7 +1,7 @@
 .carousel-item img {
   max-height: 800px;
   border-radius: 10px;
-  object-fit: cover;
+  /*object-fit: cover;*/
   border: 1px solid #2A324B;
   max-width: 99%;
   min-height: 200px;
@@ -25,14 +25,35 @@ p-carousel{
   color: #EEEEEE;
 }
 
+
 @media screen and (max-width: 600px){
   :host::ng-deep .p-carousel-prev, :host::ng-deep.p-carousel-next{
-    height: 200px;
+    position: absolute;
+    z-index: 10;
+
+    height: 40px;
+    width: 40px;
+
   }
-}
-@media screen and (max-width: 400px){
-  :host::ng-deep .p-carousel-prev, :host::ng-deep.p-carousel-next{
-    width: 30px;
+
+  :host::ng-deep .p-carousel-prev{
+    right: 50%;
+    margin-right: 33vw;
+
   }
+  :host::ng-deep.p-carousel-next{
+    left: 50%;
+    margin-left: 33vw;
+  }
+
+  /*:host::ng-deep .p-carousel-prev{*/
+  /*  transform: translateX(-3vw);*/
+  /*}*/
+  /*:host::ng-deep.p-carousel-next{*/
+  /*  right: 0;*/
+  /*  transform: translateX(calc(-6vw - 50%));*/
+
+  /*}*/
 }
+
 

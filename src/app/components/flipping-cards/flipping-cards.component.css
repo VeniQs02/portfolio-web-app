@@ -90,13 +90,13 @@ p{
 }
 @media screen and (max-width: 600px){
   .rectangle {
-    width: 180px;
+    width: 40vw;
     height: 250px;
   }
 }
 @media screen and (max-width: 400px){
   .rectangle {
-    width: 130px;
+    /*width: 130px;*/
     font-size: 16px;
   }
 }

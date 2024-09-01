@@ -12,12 +12,13 @@ section{
 
 }
 .centered{
-  transform: translateX(-160px);
+  transform: translateX(-165px);
 }
 
 @media screen and (max-width: 600px){
   section{
-    padding: 30px;
-    width: 90vw;
+    padding: 20px 0;
+    width: 100%;
+    border-radius: 0;
   }
 }

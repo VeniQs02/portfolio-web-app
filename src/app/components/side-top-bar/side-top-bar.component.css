@@ -107,6 +107,10 @@ img{
   .leftPanel{
     gap: 10px;
   }
+  img{
+    height: 200px;
+    width: 200px;
+  }
 }
 
 @media screen and (max-width: 750px){
@@ -115,5 +119,9 @@ img{
   }
   .rightPanel{
     font-size: smaller;
+  }
+  img{
+    height: 120px;
+    width: 120px;
   }
 }
