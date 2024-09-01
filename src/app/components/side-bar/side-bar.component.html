@@ -6,7 +6,7 @@
     <div class="topPanel">
       <div class="textContent">
         <div>
-          <p class="title">Portfolio</p>
+          <h4 class="title">Portfolio</h4>
           <p class="link">Jakub Kańgowski <br> Junior Developer</p>
           <img ngSrc="assets/MOZAJKA.PNG" height="150" width="150" alt="">
         </div>
@@ -20,9 +20,15 @@
         </div>
       </div>
       <div class="sideButtons">
-        <button class="sideButton" (click)="toggleSideBar()"><span class="material-symbols-rounded">close</span></button>
-        <button class="sideButton"><span class="material-symbols-rounded">accessibility</span></button>
-        <button class="sideButton" (click)="toggleLanguageSelection()"><span class="material-symbols-rounded">language</span></button>
+        <button class="sideButton" (click)="toggleSideBar()" title="Zamknij menu">
+          <span class="material-symbols-rounded">close</span>
+        </button>
+        <button class="sideButton">
+          <span class="material-symbols-rounded" title="Tryb ciemny/jasny - do zrobienia">dark_mode</span>
+        </button>
+        <button class="sideButton" (click)="toggleLanguageSelection()" title="Zmień język - do zrobienia">
+          <span class="material-symbols-rounded">language</span>
+        </button>
       </div>
     </div>
     <div class="bottomPanel">

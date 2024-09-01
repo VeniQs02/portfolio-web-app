@@ -1,49 +1,31 @@
-aside{
-  width: 320px;
-}
-#menuButton .material-symbols-rounded {
-  color: #FFFFFF;
-}
-
-#sidePanel{
-  margin: 5px 0 0 0;
-  padding: 50px;
-  background-color: #161A27;
-  width: 215px;
-  border-radius: 20px;
-  /*border: 2px solid #2A324B;*/
-  color: #EEEEEE;
-  font-size: 24px;
-  display: flex;
-  flex-direction: column;
-  transition: transform 0.5s ease-in-out;
-  position: fixed;
-  z-index: 5;
-  box-shadow: 0 0 50px -10px #161A27;
-
-}
-.hidden {
-  transform: translateX(-250%);
-  pointer-events: none;
-}
-.topPanel{
+.wholeSection, .leftPanel, .leftSmallerPanel, .rightPanel{
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
+
+.material-symbols-rounded {
+  color: #FFFFFF;
+}
+.leftPanel{
+  justify-content: space-around;
+  gap: 30px;
+}
+.leftSmallerPanel, .rightPanel{
+  flex-direction: column;
+}
+
 .title{
   margin: 0;
   border-bottom: 1px solid #EF6F2E;
+}
+.interestedTitle{
+  margin: 0 0 10px 0;
 }
 img{
   border-radius: 50%;
   margin-bottom: 10px;
 }
-.bottomPanel{
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-}
-
 .link{
   color: #f28954;
   font-size: 16px;
@@ -55,13 +37,6 @@ img{
   margin: 5px;
   transform: translateX(-15px);
 }
-.textContent{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  overflow: hidden;
-}
-
 .downloadResume i{
   font-size: larger;
   font-weight: bold;
@@ -69,11 +44,10 @@ img{
 .downloadResumeA{
   text-decoration: none;
 }
-
 .downloadResumeButton{
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
   background-color: #f28954;
   color: #161A27;
   padding: 10px;
@@ -87,33 +61,12 @@ img{
   transform: scale(1.1);
   cursor: pointer;
 }
-
-#menuButton{
-  display: block;
-  position: fixed;
-  top: 47px;
-  left: 120px;
-  background-color: #161A27;
-  transition: transform 0.2s ease-in;
-
-  height: 60px;
-  width: 60px;
-  border: none;
-  border-radius: 50%;
-  box-shadow: 0 0 100px -15px #161A27;
-
-}
-#menuButton:hover{
-  transform: scale(1.2);
-  cursor: pointer;
-}
-
-.sideButtons{
+.middleButtons{
   display: flex;
   flex-direction: column;
-  gap: 50px;
-  position: relative;
-  right: -85px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 .sideButton{
   background-color: #f28954;
@@ -130,12 +83,37 @@ img{
   transform: scale(1.2);
   cursor: pointer;
 }
+.smallerMiddleButtons{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 
 .material-symbols-rounded{
   color: #161A27;
   font-size: 2.5em;
 }
 
+@media screen and (max-width: 1100px){
+  .wholeSection{
+    flex-direction: column;
+  }
+  .rightPanel{
+    align-items: center;
+  }
+  .lineBreak{
+    display: none;
+  }
+  .leftPanel{
+    gap: 10px;
+  }
+}
 
-
-
+@media screen and (max-width: 750px){
+  .lineBreak{
+    display: block;
+  }
+  .rightPanel{
+    font-size: smaller;
+  }
+}

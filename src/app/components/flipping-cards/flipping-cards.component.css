@@ -31,6 +31,8 @@ p{
   position: relative;
   transform-style: preserve-3d;
   cursor: pointer;
+  box-shadow: 0 0 50px -30px #EEEEEE;
+
 }
 
 .rectangle-content, .rectangle-back {
