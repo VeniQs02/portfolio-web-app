@@ -86,17 +86,18 @@ p{
   .rectangle {
     width: 200px;
     font-size: smaller;
+    height: 230px;
   }
 }
 @media screen and (max-width: 600px){
   .rectangle {
-    width: 40vw;
-    height: 250px;
+    width: 35vw;
+    /*height: 250px;*/
   }
 }
 @media screen and (max-width: 400px){
   .rectangle {
-    /*width: 130px;*/
+    height: 200px;
     font-size: 16px;
   }
 }

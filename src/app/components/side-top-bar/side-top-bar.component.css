@@ -25,6 +25,8 @@
 img{
   border-radius: 50%;
   margin-bottom: 10px;
+  /*rotate: -10deg;*/
+  transform: scaleX(-1);
 }
 .link{
   color: #f28954;
@@ -114,6 +116,10 @@ img{
 }
 
 @media screen and (max-width: 750px){
+  .leftPanel{
+    justify-content: center;
+    gap: 5px;
+  }
   .lineBreak{
     display: block;
   }

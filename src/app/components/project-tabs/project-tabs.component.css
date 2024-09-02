@@ -36,6 +36,11 @@ button:hover{
   border-radius: 0 0 10px 10px;
   color: #161A27;
 }
+@media screen and (max-width: 500px){
+  button{
+    font-size: 12px;
+  }
+}
 
 
 
