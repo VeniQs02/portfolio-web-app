@@ -37,8 +37,6 @@ aside{
 img{
   border-radius: 50%;
   margin-bottom: 10px;
-  /*rotate: -10deg;*/
-  transform: scaleX(-1);
 }
 .bottomPanel{
   display: flex;
