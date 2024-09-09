@@ -1,11 +1,12 @@
 import {Component, Input, numberAttribute, OnInit} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CarouselModule } from 'primeng/carousel';
+import {TranslateModule} from "@ngx-translate/core";
 
 @Component({
   selector: 'image-carousel',
   standalone: true,
-  imports: [CommonModule, CarouselModule],
+  imports: [CommonModule, CarouselModule, TranslateModule],
   templateUrl: './image-carousel.component.html',
   styleUrls: ['./image-carousel.component.css']
 })

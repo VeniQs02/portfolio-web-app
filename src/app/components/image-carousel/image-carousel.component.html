@@ -1,7 +1,7 @@
 <p-carousel [value]="images" [numVisible]="visible" [numScroll]="scroll" [circular]="false" [showIndicators]="false">
   <ng-template pTemplate="item" let-image>
     <div class="carousel-item" (click)="openImage(image)">
-      <img [src]="image" alt="Carousel Image" />
+      <img [src]="image" alt="Carousel Image" title="{{'myProjects.imageCarouselTitle' | translate}}"/>
     </div>
   </ng-template>
 </p-carousel>

@@ -14,17 +14,64 @@
     "myNameIs2": "I live in Białystok and I am looking for a job",
     "firstAge": "I am ",
     "secondAge": " years old",
-    "firstAge2": "I have been interested in programming for 6 years",
-    "secondAge2": "and I have been interested in technology and computers since i was a child",
+    "firstAge2": "Interested in programming for 6 years ",
+    "secondAge2": "and intrested in technology since I was a child",
     "iFinished": "I graduated in Computer Science",
     "iFinished2": "Where I learned a lot about teamwork",
     "iCreated": "I have created several larger and smaller projects",
     "iCreated2": "All public ones are described on my GitHub"
   },
   "myProjects": {
-    "heading": "My projects:"
+    "heading": "My projects:",
+    "repository": "Repository",
+    "appDemo": "App demo",
+    "usedTech": "Technologies used:",
+    "additionalTech": "Supporting technologies:",
+    "imageCarouselTitle": "Click to enlarge image",
+
+    "eBakery": "E-bakery shop",
+    "eBakeryDesc1": "An e-bakery project that covers both the retail side of selling bakery products and tools for managing the shop from the employee's side. The project was developed over several months under the patronage of my supervisor - Dr. Wiesław Półjanowicz. This is the application on which I defended my bachelor's thesis titled \"Computerization of a small family business - project and implementation.\"",
+    "eBakeryDesc2": "This application was a big step forward for me, because most of my projects had either a front-end or back-end, with the other side being developed as fast as possible. Here, everything was refined. The application is responsive to various screen sizes, and the entire design of the site is my own. I wanted to test whether such an application could be built from scratch - without using libraries like Bootstrap or Material, while maintaining full project coherence. Most of the images visible on the site were created by DeepAI.",
+
+    "githubApi": "GitHub repository API",
+    "githubApiDesc1": "It started as a recruitment task, where the only requirement was to fetch information about repositories and branches for a specific user. However, I took it a step further by securing the endpoint with SpringSecurity and creating a simple, readable user interface. I also designed the simple 'R' logo. The application is very basic, so it scales well on smaller devices.",
+
+    "medpics": "X-ray image analysis",
+    "medpicsDesc1": "In class, we dealt with the topic of medical image analysis involving image modification. We received a small task, which turned into a slightly larger project. The program iterates through several levels set by the user and offers the option to select the appropriate image modification. The goal of the program is to increase the clarity of the image.",
+    "medpicsDesc2": "All images used in the project were taken from https://medpix.nlm.nih.gov/",
+
+    "scheduler": "E-reservation",
+    "schedulerDesc1": "An application for scheduling equipment reservations. Initially created as a prototype for a company in Wasilków that rents industrial cleaning equipment for large areas. To save time, I utilized the benefits of today's tools - chatbots. This allowed me to minimize the time required to create such a demonstration site, which will be refined later.",
+    "schedulerDesc2": "Currently, it is just a simple front-end, serving only to demonstrate the concept. In the current version, there is no working back-end, but that will likely change soon."
   },
   "moreAboutMe": {
-    "heading": "More about me:"
+    "heading": "More about me:",
+    "minorHeading": "Experience:",
+    "itHelp": {
+      "heading": "IT Help",
+      "subHead": "3 years | Computer Emergency Łukasz Galiński",
+      "desc": "Since becoming a more conscious technology user, I have been involved in minor repairs/enhancements to my computers and those of my family. When I became an adult, I started working at a computer service, where I had the opportunity to improve my skills in repairing and assembling computers.",
+      "skill1": "Computer assembly",
+      "skill2": "Basic diagnosis and repair of units",
+      "skill3": "On-site service and customer interaction"
+    },
+    "angularDev": {
+      "heading": "Junior Angular Developer",
+      "subHead": "1 month | Nekken",
+      "desc": "A remote internship required by my study program, where I had the opportunity to learn the basics of Angular and SpringBoot. These are tools I have continued to work with. On the database side, I used OracleSQL, which I had already learned in class. Most of the time, I was involved in implementing new functionalities on the website. I had regular online meetings to oversee my progress."
+    },
+    "CS": {
+      "heading": "Computer Science Studies",
+      "subHead": "3 years | University of Białystok",
+      "desc": "Bachelor's studies, which I completed in 2024. During my studies, I had several more and less useful subjects, but I feel that I learned the most from group projects, which there were many of in the final year. Working in groups of up to 12 people, on projects that lasted several months. The main theme of the final year was the bachelor's thesis, which also taught me a lot.",
+      "skill1": "Many programming languages",
+      "skill2": "Several frameworks",
+      "skill3": "Databases - including Oracle SQL"
+    },
+    "freelance": {
+      "heading": "Freelance Photo/Video Editor",
+      "subHead": "Several projects | Brandbo",
+      "desc": "The project coordinator found me through Facebook groups where I was offering my services as a video editor. I worked on various projects - mostly alone - ranging from simple animations to video edits and creating concept graphics for the company's new products."
+    }
   }
 }
