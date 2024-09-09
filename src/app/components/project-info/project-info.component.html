@@ -1,28 +1,19 @@
 <section *ngIf="selectedTab === 'pepnet'" id="pepnet">
   <h3>Pep.net</h3>
   <image-carousel project='pepnet' quantity=6></image-carousel>
-  <p>&nbsp;&nbsp;&nbsp;&nbsp;Projekt e-piekarni, który obejmuje część sklepu odpowiedzialnego za sprzedarz detaliczną
-    pieczywa, jak i narzędzia do zarządzania sklepem od strony pracownika. Projekt powstawał kilka miesięcy pod
-    patronatem mojego promotora - dr Wiesława Półjanowicza. Jest to aplikacja na podstawie której obroniłem pracę
-    licencjacką o temacie "Komputeryzacja małej firmy rodzinnej - projekt i implementacja". </p>
-  <p>&nbsp;&nbsp;&nbsp;&nbsp;Ta aplikacja była dla mnie dużym krokiem na przód, ze względu na to że większość
-    projektów była docelowo frontem lub backendem, z drugą stroną zrobioną po łebkach. Tutaj wszystko zostało dopięte
-    na ostatni guzik. Aplikacja jest dostosowana do różnych rozmiarów ekranów, a cały design strony jest mojego
-    autorstwa. Chciałem przekonać się czy taką aplikację można zrobić od podstaw - nie korzystając z żadnych bibliotek
-    pokroju bootstrapa czy materiala, zarazem zachowując pełną spójność projektu. Większość zdjęć widocznych na stronie
-    zostały stworzone przez DeepAI.
-  </p>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;{{ 'myProjects.eBakeryDesc1' | translate }}</p>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;{{ 'myProjects.eBakeryDesc2' | translate }}</p>
   <a href="https://github.com/VeniQs02/pep.net-bachelors-thesis-web-app" target="_blank">
-    <i class="pi pi-github"></i> Repozytorium
+    <i class="pi pi-github"></i> {{ 'myProjects.repository' | translate }}
   </a>
   <div class="technologies">
-    <ul> Użyte technologie:
+    <ul> {{ 'myProjects.usedTech' | translate }}
       <li>Angular</li>
       <li>SpringBoot</li>
       <li>MongoDB</li>
       <li>DeepAI</li>
     </ul>
-    <ul> Wspierające technologie:
+    <ul> {{ 'myProjects.additionalTech' | translate }}
       <li>IntelliJ</li>
       <li>GitHub</li>
       <li>Postman</li>
@@ -33,21 +24,17 @@
 <section *ngIf="selectedTab === 'repositorylister'" id="repositorylister">
   <h3>RepositoryLister</h3>
   <image-carousel project="repositorylister" quantity=4></image-carousel>
-  <p>&nbsp;&nbsp;&nbsp;&nbsp;Zaczęło się od tego, że projekt był zadaniem rekrutacyjnym, gdzie jedynym zadaniem było
-    pobieranie informacji o repozytoriach i branchach konkretnego usera. Postanowiłem jednak zadbać o odpowiednie
-    zabezpieczenie endpointu za pomocą SpringSecurity, jak i dorobiłem prosty, czytelny interfejs użytkownika. Mojego
-    autorstwa jest również proste logo z literką 'R'. Aplikacja jest bardzo prosta, więc nie będzie zaskoczeniem że
-    dobrze skaluje się na mniejszych urządzeniach.</p>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;{{ 'myProjects.githubApiDesc1' | translate }}</p>
   <a href="https://github.com/VeniQs02/repository-lister-api" target="_blank">
-    <i class="pi pi-github"></i> Repozytorium
+    <i class="pi pi-github"></i> {{ 'myProjects.repository' | translate }}
   </a>
   <div class="technologies">
-    <ul> Użyte technologie:
+    <ul> {{ 'myProjects.usedTech' | translate }}
       <li>SpringBoot</li>
       <li>GitHubAPI</li>
       <li>Angular</li>
     </ul>
-    <ul> Wspierające technologie:
+    <ul> {{ 'myProjects.additionalTech' | translate }}
       <li>IntelliJ</li>
       <li>GitHub</li>
       <li>Postman</li>
@@ -58,19 +45,16 @@
 <section *ngIf="selectedTab === 'medpics'" id="medpics">
   <h3>MedpicsAnalisys</h3>
   <image-carousel project="medpics" quantity='3'></image-carousel>
-  <p>&nbsp;&nbsp;&nbsp;&nbsp;Na zajęciach zetkneliśmy się z tematem analizy obrazów medycznych z udziałem modyfikacji
-    obrazu. Otrzymaliśmy jakieś drobne zadanie, które przerodziło się w nieco większy projekcik. Program iteruje przez
-    kilka poziomów, które ustala użytkownik, jak i ma możliwość wyboru odpowiedniej modyfikacji obrazu. Zadaniem
-    programu jest zwiększenie przejżystości takiego obrazka.</p>
-  <p>Wszystkie obrazki wykorzystane w projekcie zaczerpnięte zostały ze strony https://medpix.nlm.nih.gov/</p>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;{{ 'myProjects.medpicsDesc1' | translate }}</p>
+  <p>{{ 'myProjects.medpicsDesc2' | translate }}</p>
   <a href="https://github.com/VeniQs02/medpics-picture-modification-and-analisis-project" target="_blank">
-    <i class="pi pi-github"></i> Repozytorium
+    <i class="pi pi-github"></i> {{ 'myProjects.repository' | translate }}
   </a>
   <div class="technologies">
-    <ul> Użyte technologie:
+    <ul> {{ 'myProjects.usedTech' | translate }}
       <li>Java</li>
     </ul>
-    <ul> Wspierające technologie:
+    <ul> {{ 'myProjects.additionalTech' | translate }}
       <li>IntelliJ</li>
       <li>GitHub</li>
     </ul>
@@ -79,24 +63,20 @@
 <section *ngIf="selectedTab === 'scheduleapp'" id="scheduleapp">
   <h3>ScheduleApp</h3>
   <image-carousel project="scheduleapp" quantity="5"></image-carousel>
-  <p>&nbsp;&nbsp;&nbsp;&nbsp;Aplikacja służąca do rezerwowania terminów. Pierwotnie stworzona jako prototyp dla
-    wasilkowskiej firmy zajmującej się wyporzyczaniem przemysłowego sprzętu czyszczącego duże powierzchnie. Aby
-    zaoszczędzić czas wykorzystałem dobrodziejstwa dzisiejszych czasów - chatboty. Pozwoliło mi to zminimalizować czas
-    potrzebny na zrealizowanie takiej demonstracyjnej strony, która potem będzie dopracowywana.</p>
-  <p>&nbsp;&nbsp;&nbsp;&nbsp;Na obecną chwilą jest tylko prostym front-endem służącego jedynie zaprezentowaniu koncepcji.
-    W obecnej wersji nie ma działającego backendu, ale zapewne niedługo się to zmieni</p>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;{{ 'myProjects.schedulerDesc1' | translate }}</p>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;{{ 'myProjects.schedulerDesc2' | translate }}</p>
   <a href="https://scheduleapp.pages.dev/home" target="_blank">
-    <i class="pi pi-link"></i> Demo aplikacji
+    <i class="pi pi-link"></i> {{ 'myProjects.appDemo' | translate }}
   </a>
   <a href="https://github.com/VeniQs02/veniqs02.github.io" target="_blank">
-    <i class="pi pi-github"></i> Repozytorium
+    <i class="pi pi-github"></i> {{ 'myProjects.repository' | translate }}
   </a>
   <div class="technologies">
-    <ul> Użyte technologie:
+    <ul> {{ 'myProjects.usedTech' | translate }}
       <li>Angular</li>
       <li>ChatGPT</li>
     </ul>
-    <ul> Wspierające technologie:
+    <ul> {{ 'myProjects.additionalTech' | translate }}
       <li>IntelliJ</li>
       <li>GitHub</li>
       <li>Angular Material UI</li>

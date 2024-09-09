@@ -1,8 +1,30 @@
 {
   "sideBar": {
+    "authorsPhoto": "Author's photo",
     "download": "Download CV",
-    "intrested": "Intrested?",
+    "closeMenu": "Close menu",
+    "changeTheme": "Change theme",
+    "changeLanguage": "Change language",
+    "intrested": "Interested?",
     "reachOut": "Reach out to me!"
+  },
+  "aboutMe": {
+    "heading": "A few things about me:",
+    "myNameIs": "My name is Jakub",
+    "myNameIs2": "I live in Białystok and I am looking for a job",
+    "firstAge": "I am ",
+    "secondAge": " years old",
+    "firstAge2": "I have been interested in programming for 6 years",
+    "secondAge2": "and I have been interested in technology and computers since i was a child",
+    "iFinished": "I graduated in Computer Science",
+    "iFinished2": "Where I learned a lot about teamwork",
+    "iCreated": "I have created several larger and smaller projects",
+    "iCreated2": "All public ones are described on my GitHub"
+  },
+  "myProjects": {
+    "heading": "My projects:"
+  },
+  "moreAboutMe": {
+    "heading": "More about me:"
   }
-
 }

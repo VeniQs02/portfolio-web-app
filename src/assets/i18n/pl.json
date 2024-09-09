@@ -7,5 +7,43 @@
     "changeLanguage": "Zmień język",
     "intrested": "Zainteresowany współpracą?",
     "reachOut": "Odezwij się!"
+  },
+  "aboutMe": {
+    "heading": "Kilka informacji o mnie:",
+    "myNameIs": "Mam na imię Jakub",
+    "myNameIs2": "Mieszkam w Białymstoku i szukam pracy",
+    "firstAge": "Mam ",
+    "secondAge": " lat",
+    "firstAge2": "Od 6 lat interesuje się programo",
+    "secondAge2": "waniem, a odkąd pamiętam interesuje się technologią i komputerami",
+    "iFinished": "Ukończyłem studia na kierunku Informatyka",
+    "iFinished2": "Na których najwięcej nauczyłem się pracy w zespole",
+    "iCreated": "Stworzyłem kilka większych jak i mniejszych projektów",
+    "iCreated2": "Wszystkie publiczne są opisane na moim GitHubie"
+  },
+  "myProjects": {
+    "heading": "Moje projekty:",
+    "repository": "Repozytorium",
+    "appDemo": "Demo aplikacji",
+    "usedTech": "Użyte technologie:",
+    "additionalTech": "Wspierające technologie:",
+
+    "eBakery": "E-sklep piekarni",
+    "eBakeryDesc1": "Projekt e-piekarni, który obejmuje część sklepu odpowiedzialnego za sprzedarz detaliczną\n    pieczywa, jak i narzędzia do zarządzania sklepem od strony pracownika. Projekt powstawał kilka miesięcy pod\n    patronatem mojego promotora - dr Wiesława Półjanowicza. Jest to aplikacja na podstawie której obroniłem pracę\n    licencjacką o temacie \"Komputeryzacja małej firmy rodzinnej - projekt i implementacja\". ",
+    "eBakeryDesc2": "Ta aplikacja była dla mnie dużym krokiem na przód, ze względu na to że większość\n    projektów była docelowo frontem lub backendem, z drugą stroną zrobioną po łebkach. Tutaj wszystko zostało dopięte\n    na ostatni guzik. Aplikacja jest dostosowana do różnych rozmiarów ekranów, a cały design strony jest mojego\n    autorstwa. Chciałem przekonać się czy taką aplikację można zrobić od podstaw - nie korzystając z żadnych bibliotek\n    pokroju bootstrapa czy materiala, zarazem zachowując pełną spójność projektu. Większość zdjęć widocznych na stronie\n    zostały stworzone przez DeepAI.",
+
+    "githubApi": "API wypisujące repozytoria",
+    "githubApiDesc1": "Zaczęło się od tego, że projekt był zadaniem rekrutacyjnym, gdzie jedynym zadaniem było\n    pobieranie informacji o repozytoriach i branchach konkretnego usera. Postanowiłem jednak zadbać o odpowiednie\n    zabezpieczenie endpointu za pomocą SpringSecurity, jak i dorobiłem prosty, czytelny interfejs użytkownika. Mojego\n    autorstwa jest również proste logo z literką 'R'. Aplikacja jest bardzo prosta, więc nie będzie zaskoczeniem że\n    dobrze skaluje się na mniejszych urządzeniach.",
+
+    "medpics": "Analiza zdjęć rentgenowskich",
+    "medpicsDesc1": "Na zajęciach zetkneliśmy się z tematem analizy obrazów medycznych z udziałem modyfikacji\n    obrazu. Otrzymaliśmy jakieś drobne zadanie, które przerodziło się w nieco większy projekcik. Program iteruje przez\n    kilka poziomów, które ustala użytkownik, jak i ma możliwość wyboru odpowiedniej modyfikacji obrazu. Zadaniem\n    programu jest zwiększenie przejżystości takiego obrazka.",
+    "medpicsDesc2": "Wszystkie obrazki wykorzystane w projekcie zaczerpnięte zostały ze strony https://medpix.nlm.nih.gov/",
+
+    "scheduler": "E-rezerwacja sprzętu",
+    "schedulerDesc1": "Aplikacja służąca do rezerwowania terminów. Pierwotnie stworzona jako prototyp dla\n    wasilkowskiej firmy zajmującej się wyporzyczaniem przemysłowego sprzętu czyszczącego duże powierzchnie. Aby\n    zaoszczędzić czas wykorzystałem dobrodziejstwa dzisiejszych czasów - chatboty. Pozwoliło mi to zminimalizować czas\n    potrzebny na zrealizowanie takiej demonstracyjnej strony, która potem będzie dopracowywana.",
+    "schedulerDesc2": "Na obecną chwilą jest tylko prostym front-endem służącego jedynie zaprezentowaniu koncepcji.\n    W obecnej wersji nie ma działającego backendu, ale zapewne niedługo się to zmieni."
+  },
+  "moreAboutMe": {
+    "heading": "Więcej o mnie:"
   }
 }

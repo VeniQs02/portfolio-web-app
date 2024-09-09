@@ -2,39 +2,37 @@
   <div class="firstTwo">
     <div class="rectangle">
       <div class="rectangle-content">
-        <p>Mam na imię Jakub</p>
+        <p>{{ 'aboutMe.myNameIs' | translate }}</p>
       </div>
       <div class="rectangle-back">
-        <p>Mieszkam w Białymstoku i szukam pracy</p>
+        <p>{{ 'aboutMe.myNameIs2' | translate }}</p>
       </div>
     </div>
     <div class="rectangle">
       <div class="rectangle-content">
-        <p>Mam {{ getAge() }} lat</p>
+        <p>{{ 'aboutMe.firstAge' | translate }}{{ getAge() }}{{ 'aboutMe.secondAge' | translate }}</p>
       </div>
       <div class="rectangle-back">
-        <p>Od 6 lat interesuje się programo&shy;waniem, a odkąd pamiętam interesuje się technologią i komputerami</p>
+        <p>{{ 'aboutMe.firstAge2' | translate }}&shy;{{ 'aboutMe.secondAge2' | translate }}</p>
       </div>
     </div>
   </div>
   <div class="secondTwo">
     <div class="rectangle">
       <div class="rectangle-content">
-        <p>Ukończyłem studia na kierunku Informatyka</p>
+        <p>{{ 'aboutMe.iFinished' | translate }}</p>
       </div>
       <div class="rectangle-back">
-        <p>Na których najwięcej nauczyłem się pracy w zespole</p>
+        <p>{{ 'aboutMe.iFinished2' | translate }}</p>
       </div>
     </div>
     <div class="rectangle">
       <div class="rectangle-content">
-        <p>Stworzyłem kilka większych jak i mniejszych projektów</p>
+        <p>{{ 'aboutMe.iCreated' | translate }}</p>
       </div>
       <div class="rectangle-back">
-        <p>Wszystkie publiczne są opisane na moim GitHubie </p>
+        <p>{{ 'aboutMe.iCreated2' | translate }}</p>
       </div>
     </div>
   </div>
 </div>
-
-
