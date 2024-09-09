@@ -3,7 +3,7 @@
 
 The project is a web application designed to showcase my work and skills.
 
-![MOZAJKA](https://github.com/user-attachments/assets/34dac4b7-9228-4b67-8f49-872da32546ca)
+![Logo](https://github.com/user-attachments/assets/34dac4b7-9228-4b67-8f49-872da32546ca)
 
 ## Tech Stack
 
@@ -28,6 +28,9 @@ I dont post images of the app, because you can check it out yourself!
 
 ✔️ **GOOD READABILITY** - Usage of icons, readable fonts and contrasted colors to provide best user experience.
 
+✔️ **LIGHT AND DARK THEMES** - Allows the user to dynamically toggle between two themes.
+
+✔️ **2 LANGUAGES SUPPORTED CURRENTLY** - User is able to change the language that the app uses dynamically.
 
 
 
