@@ -2,6 +2,10 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
+  background-color: #2a324b;
+}
+.lightTheme{
+  background-color: #EEE;
 }
 
 main-section h2{

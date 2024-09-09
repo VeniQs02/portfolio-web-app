@@ -8,19 +8,24 @@ aside{
 #sidePanel{
   margin: 5px 0 0 0;
   padding: 50px;
-  background-color: #161A27;
   width: 215px;
   border-radius: 20px;
-  /*border: 2px solid #2A324B;*/
-  color: #EEEEEE;
   font-size: 24px;
   display: flex;
   flex-direction: column;
   transition: transform 0.5s ease-in-out;
   position: fixed;
   z-index: 5;
+}
+.darkSidePanel{
+  background-color: #161A27;
+  color: #EEEEEE;
   box-shadow: 0 0 50px -10px #161A27;
-
+}
+.lightTheme{
+  background-color: #DCDCDC;
+  color: #161A27;
+  box-shadow: none;
 }
 .hidden {
   transform: translateX(-250%);
@@ -95,7 +100,6 @@ img{
   position: fixed;
   top: 47px;
   left: 120px;
-  background-color: #161A27;
   transition: transform 0.2s ease-in;
 
   height: 60px;
@@ -103,12 +107,18 @@ img{
   border: none;
   border-radius: 50%;
   box-shadow: 0 0 100px -15px #161A27;
-
+}
+.darkMenuButton{
+  background: #161A27;
+}
+.lightMenuButton{
+  background: #CCC;
 }
 #menuButton:hover{
   transform: scale(1.2);
   cursor: pointer;
 }
+
 
 .sideButtons{
   display: flex;
@@ -137,6 +147,7 @@ img{
   color: #161A27;
   font-size: 2.5em;
 }
+
 
 
 

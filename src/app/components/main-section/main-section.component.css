@@ -16,7 +16,8 @@ section{
 }
 
 .lightTheme{
-  background-color: #DDD;
+  background-color: #DCDCDC;
+  box-shadow: none;
 }
 
 @media screen and (max-width: 600px){

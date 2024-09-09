@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, effect} from '@angular/core';
 import {NgClass, NgIf, NgOptimizedImage} from "@angular/common";
 import {SideBarStateService} from "../../services/side-bar-state.service";
 import {ThemeToggleService} from "../../services/theme-toggle.service";
@@ -16,9 +16,13 @@ import {ThemeToggleService} from "../../services/theme-toggle.service";
 })
 export class SideBarComponent {
   protected isSideBarBeingDisplayed: boolean = true;
+  protected isLightTheme: boolean = false;
 
   constructor(private sideBarStateService: SideBarStateService, protected themeToggleService: ThemeToggleService) {
     this.sideBarStateService.setIsSidebarVisible(this.isSideBarBeingDisplayed);
+    effect(() => {
+      this.isLightTheme = this.themeToggleService.isLightTheme();
+    });
   }
 
   protected toggleSideBar() {
@@ -26,9 +30,10 @@ export class SideBarComponent {
     this.sideBarStateService.setIsSidebarVisible(this.isSideBarBeingDisplayed);
   }
 
-  protected toggleTheme(){
+  protected toggleThemeButtonAction(){
     this.themeToggleService.toggleTheme();
   }
 
   protected toggleLanguageSelection(){}
+
 }

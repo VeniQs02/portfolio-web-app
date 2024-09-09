@@ -1,8 +1,8 @@
 <aside>
-  <button id="menuButton" *ngIf="!isSideBarBeingDisplayed" (click)="toggleSideBar()">
+  <button id="menuButton" class="darkMenuButton" [ngClass]="{'lightMenuButton': isLightTheme}" *ngIf="!isSideBarBeingDisplayed" (click)="toggleSideBar()">
     <span class="material-symbols-rounded">menu</span>
   </button>
-  <div id="sidePanel" [ngClass]="{'hidden': !isSideBarBeingDisplayed}">
+  <div id="sidePanel" class="darkSidePanel" [ngClass]="{'hidden': !isSideBarBeingDisplayed, 'lightTheme': isLightTheme}">
     <div class="topPanel">
       <div class="textContent">
         <div>
@@ -23,7 +23,7 @@
         <button class="sideButton" (click)="toggleSideBar()" title="Zamknij menu">
           <span class="material-symbols-rounded">close</span>
         </button>
-        <button class="sideButton" (click)="toggleTheme()">
+        <button class="sideButton" (click)="toggleThemeButtonAction()">
           @if(!themeToggleService.isLightTheme()){
             <span  class="material-symbols-rounded" title="Tryb ciemny/jasny - do zrobienia">dark_mode</span>
           }@else{
