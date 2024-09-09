@@ -3,11 +3,7 @@
 
 The project is a web application designed to showcase my work and skills.
 
-
-
-
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
-
+![MOZAJKA](https://github.com/user-attachments/assets/34dac4b7-9228-4b67-8f49-872da32546ca)
 
 ## Tech Stack
 
@@ -18,6 +14,21 @@ The project is a web application designed to showcase my work and skills.
 
 
 ## Usage/Examples
+
+I dont post images of the app, because you can check it out yourself!
+
+**Deployed**: https://veniqs02.github.io/
+
+
+✔️ **RESPONSIVE** - Works well on bigger, as well as smaller devices.
+
+✔️ **SCALABLE** - Can be easily build upon, due to the chosen tech stack.
+
+✔️ **UNIQUE** - Original design, that I've never seen before.
+
+✔️ **GOOD READABILITY** - Usage of icons, readable fonts and contrasted colors to provide best user experience.
+
+
 
 
 
