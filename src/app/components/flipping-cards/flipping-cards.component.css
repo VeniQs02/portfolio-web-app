@@ -27,7 +27,7 @@ p{
   max-width: 300px;
   height: 300px;
   border-radius: 20px;
-  transition: transform 0.7s ease-in-out;
+  transition: transform 0.5s;
   position: relative;
   transform-style: preserve-3d;
   cursor: pointer;
@@ -37,8 +37,6 @@ p{
 
 .rectangle-content, .rectangle-back {
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
@@ -62,6 +60,7 @@ p{
 
 .rectangle:hover {
   transform: rotateY(180deg);
+  display: block;
 }
 
 @media screen and (max-width: 1700px){
