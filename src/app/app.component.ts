@@ -16,4 +16,5 @@ import {MoreAboutMeComponent} from "./components/more-about-me/more-about-me.com
 })
 export class AppComponent {
   title = 'portfolio';
+
 }

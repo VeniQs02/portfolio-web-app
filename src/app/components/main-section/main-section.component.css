@@ -15,6 +15,10 @@ section{
   transform: translateX(-165px);
 }
 
+.lightTheme{
+  background-color: #DDD;
+}
+
 @media screen and (max-width: 600px){
   section{
     position: relative;

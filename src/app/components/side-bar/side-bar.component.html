@@ -23,8 +23,12 @@
         <button class="sideButton" (click)="toggleSideBar()" title="Zamknij menu">
           <span class="material-symbols-rounded">close</span>
         </button>
-        <button class="sideButton">
-          <span class="material-symbols-rounded" title="Tryb ciemny/jasny - do zrobienia">dark_mode</span>
+        <button class="sideButton" (click)="toggleTheme()">
+          @if(!themeToggleService.isLightTheme()){
+            <span  class="material-symbols-rounded" title="Tryb ciemny/jasny - do zrobienia">dark_mode</span>
+          }@else{
+            <span  class="material-symbols-rounded" title="Tryb ciemny/jasny - do zrobienia">light_mode</span>
+          }
         </button>
         <button class="sideButton" (click)="toggleLanguageSelection()" title="Zmień język - do zrobienia">
           <span class="material-symbols-rounded">language</span>
