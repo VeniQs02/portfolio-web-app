@@ -2,6 +2,8 @@ import {Component, effect} from '@angular/core';
 import {NgClass, NgIf, NgOptimizedImage} from "@angular/common";
 import {SideBarStateService} from "../../services/side-bar-state.service";
 import {ThemeToggleService} from "../../services/theme-toggle.service";
+import {TranslateModule} from "@ngx-translate/core";
+import {LanguageToggleService} from "../../services/language-toggle.service";
 
 @Component({
   selector: 'side-bar',
@@ -9,7 +11,8 @@ import {ThemeToggleService} from "../../services/theme-toggle.service";
   imports: [
     NgClass,
     NgIf,
-    NgOptimizedImage
+    NgOptimizedImage,
+    TranslateModule
   ],
   templateUrl: './side-bar.component.html',
   styleUrls: ['./side-bar.component.css']
@@ -18,7 +21,9 @@ export class SideBarComponent {
   protected isSideBarBeingDisplayed: boolean = true;
   protected isLightTheme: boolean = false;
 
-  constructor(private sideBarStateService: SideBarStateService, protected themeToggleService: ThemeToggleService) {
+  constructor(private sideBarStateService: SideBarStateService,
+              protected themeToggleService: ThemeToggleService,
+              protected languageToggleService: LanguageToggleService) {
     this.sideBarStateService.setIsSidebarVisible(this.isSideBarBeingDisplayed);
     effect(() => {
       this.isLightTheme = this.themeToggleService.isLightTheme();
@@ -34,6 +39,8 @@ export class SideBarComponent {
     this.themeToggleService.toggleTheme();
   }
 
-  protected toggleLanguageSelection(){}
+  protected toggleLanguageSelection(){
+    this.languageToggleService.switchLanguage()
+  }
 
 }

@@ -8,35 +8,35 @@
         <div>
           <h4 class="title">Portfolio</h4>
           <p class="link">Jakub Kańgowski <br> Junior Developer</p>
-          <img ngSrc="assets/Jakub_Kańgowski_CV.jpg" height="416" width="416" alt="Zdjęcie autora" priority>
+          <img ngSrc="assets/Jakub_Kańgowski_CV.jpg" height="416" width="416" alt="{{'sideBar.authorsPhoto' | translate}}" priority>
         </div>
         <div class="downloadResume">
           <a class="downloadResumeA"  href="assets/Jakub_Kańgowski_CV.pdf" download>
             <button class="downloadResumeButton">
               <i class="pi pi-download"></i>
-              <p>Pobierz CV</p>
+              <p>{{"sideBar.download" | translate}}</p>
             </button>
           </a>
         </div>
       </div>
       <div class="sideButtons">
-        <button class="sideButton" (click)="toggleSideBar()" title="Zamknij menu">
+        <button class="sideButton" (click)="toggleSideBar()" title="{{'sideBar.closeMenu'| translate}}">
           <span class="material-symbols-rounded">close</span>
         </button>
         <button class="sideButton" (click)="toggleThemeButtonAction()">
           @if(!themeToggleService.isLightTheme()){
-            <span  class="material-symbols-rounded" title="Tryb ciemny/jasny - do zrobienia">dark_mode</span>
+            <span  class="material-symbols-rounded" title="{{'sideBar.changeTheme' | translate}}">dark_mode</span>
           }@else{
-            <span  class="material-symbols-rounded" title="Tryb ciemny/jasny - do zrobienia">light_mode</span>
+            <span  class="material-symbols-rounded" title="{{'sideBar.changeTheme' | translate}}">light_mode</span>
           }
         </button>
-        <button class="sideButton" (click)="toggleLanguageSelection()" title="Zmień język - do zrobienia">
+        <button class="sideButton" (click)="toggleLanguageSelection()" title="{{'sideBar.changeLanguage' | translate}}">
           <span class="material-symbols-rounded">language</span>
         </button>
       </div>
     </div>
     <div class="bottomPanel">
-    <p>Zainteresowany współpracą? <br> - Odezwij się! </p>
+    <p> {{"sideBar.intrested" | translate }} <br> - {{ "sideBar.reachOut" | translate }} </p>
     <p class="linkText"><i class="pi pi-github"></i> GitHub</p><a href="https://github.com/VeniQs02" target="_blank" class="link">github.com/VeniQs02</a>
     <p class="linkText"><i class="pi pi-linkedin"></i> LinkedIn</p><a href="https://www.linkedin.com/in/jakub-ka%C5%84gowski-a19258245/" target="_blank" class="link">linkedin.com/in/jakub-kańgowski</a>
     <p class="linkText"><i class="pi pi-envelope"></i> E-mail</p><a href="mailto:jakub.kangowski7@vp.pl" class="link">jakub.kangowski7&#64;vp.pl</a>

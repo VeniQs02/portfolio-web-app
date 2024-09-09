@@ -1,38 +1,35 @@
 <div class="wholeSection">
-
   <div class="leftPanel">
-
     <div class="leftSmallerPanel">
       <h4 class="title">Portfolio</h4>
       <p class="link">Jakub Kańgowski <br> Junior Developer</p>
-      <img ngSrc="assets/Jakub_Kańgowski_CV.jpg" height="416" width="416" alt="">
+      <img ngSrc="assets/Jakub_Kańgowski_CV.jpg" height="416" width="416" alt="{{'sideBar.authorsPhoto' | translate}}">
     </div>
-
     <div class="middleButtons">
       <div class="downloadResume">
-        <a class="downloadResumeA"  href="assets/Jakub_Kańgowski_CV.pdf" download>
+        <a class="downloadResumeA" href="assets/Jakub_Kańgowski_CV.pdf" download>
           <button class="downloadResumeButton">
             <i class="pi pi-download"></i>
-            <p>Pobierz CV</p>
+            <p>{{'sideBar.download' | translate}}</p>
           </button>
         </a>
       </div>
       <div class="smallerMiddleButtons">
-        <button class="sideButton">
-          <span class="material-symbols-rounded" title="Tryb ciemny/jasny - do zrobienia">dark_mode</span>
+        <button class="sideButton" (click)="toggleThemeButtonAction()">
+          <span class="material-symbols-rounded" title="{{'sideBar.changeTheme' | translate}}">
+            {{ themeToggleService.isLightTheme() ? 'light_mode' : 'dark_mode' }}
+          </span>
         </button>
-        <button class="sideButton" title="Zmień język - do zrobienia">
+        <button class="sideButton" (click)="toggleLanguageSelection()" title="{{'sideBar.changeLanguage' | translate}}">
           <span class="material-symbols-rounded">language</span>
         </button>
       </div>
     </div>
   </div>
-
   <div class="rightPanel">
-    <p class="interestedTitle">Zainteresowany współpracą? <br class="lineBreak"> - Odezwij się! </p>
+    <p class="interestedTitle">{{'sideBar.intrested' | translate}} <br class="lineBreak"> - {{'sideBar.reachOut' | translate}}</p>
     <p class="linkText"><i class="pi pi-github"></i> GitHub</p><a href="https://github.com/VeniQs02" target="_blank" class="link">github.com/VeniQs02</a>
     <p class="linkText"><i class="pi pi-linkedin"></i> LinkedIn</p><a href="https://www.linkedin.com/in/jakub-ka%C5%84gowski-a19258245/" target="_blank" class="link">linkedin.com/in/jakub-kańgowski</a>
     <p class="linkText"><i class="pi pi-envelope"></i> E-mail</p><a href="mailto:jakub.kangowski7@vp.pl" class="link">jakub.kangowski7&#64;vp.pl</a>
   </div>
-
 </div>
