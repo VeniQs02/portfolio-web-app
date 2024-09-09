@@ -11,9 +11,6 @@ section{
   box-shadow: 0 0 50px -10px #161A27;
 
 }
-.centered{
-  transform: translateX(-165px);
-}
 
 .lightTheme{
   background-color: #DCDCDC;
@@ -29,5 +26,10 @@ section{
     width: 100%;
     border-radius: 0;
     margin: 0 0 20px 0;
+  }
+}
+@media screen and (min-width: 1420px){
+  .centered{
+    transform: translateX(-165px);
   }
 }
