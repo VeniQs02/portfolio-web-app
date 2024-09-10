@@ -1,5 +1,6 @@
 <aside>
-  <button id="menuButton" class="darkMenuButton" [ngClass]="{'lightMenuButton': isLightTheme}" *ngIf="!isSideBarBeingDisplayed" (click)="toggleSideBar()">
+  <button id="menuButton" class="darkMenuButton" [ngClass]="{'lightMenuButton': isLightTheme}"
+          *ngIf="!isSideBarBeingDisplayed" (click)="toggleSideBar()" type="button">
     <span class="material-symbols-rounded">menu</span>
   </button>
   <div id="sidePanel" class="darkSidePanel" [ngClass]="{'hidden': !isSideBarBeingDisplayed, 'lightTheme': isLightTheme}">
@@ -12,7 +13,7 @@
         </div>
         <div class="downloadResume">
           <a class="downloadResumeA"  href="assets/Jakub_Kańgowski_CV.pdf" download>
-            <button class="downloadResumeButton">
+            <button class="downloadResumeButton" type="button">
               <i class="pi pi-download"></i>
               <p>{{"sideBar.download" | translate}}</p>
             </button>
@@ -20,17 +21,18 @@
         </div>
       </div>
       <div class="sideButtons">
-        <button class="sideButton" (click)="toggleSideBar()" title="{{'sideBar.closeMenu'| translate}}">
+        <button class="sideButton" (click)="toggleSideBar()" title="{{'sideBar.closeMenu'| translate}}" type="button">
           <span class="material-symbols-rounded">close</span>
         </button>
-        <button class="sideButton" (click)="toggleThemeButtonAction()">
+        <button class="sideButton" (click)="toggleThemeButtonAction()" type="button">
           @if(!themeToggleService.isLightTheme()){
             <span  class="material-symbols-rounded" title="{{'sideBar.changeTheme' | translate}}">dark_mode</span>
           }@else{
             <span  class="material-symbols-rounded" title="{{'sideBar.changeTheme' | translate}}">light_mode</span>
           }
         </button>
-        <button class="sideButton" (click)="toggleLanguageSelection()" title="{{'sideBar.changeLanguage' | translate}}">
+        <button class="sideButton" (click)="toggleLanguageSelection()" title="{{'sideBar.changeLanguage' | translate}}"
+                type="button">
           <span class="material-symbols-rounded">language</span>
         </button>
       </div>

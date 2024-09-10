@@ -8,19 +8,20 @@
     <div class="middleButtons">
       <div class="downloadResume">
         <a class="downloadResumeA" href="assets/Jakub_Kańgowski_CV.pdf" download>
-          <button class="downloadResumeButton">
+          <button class="downloadResumeButton" type="button">
             <i class="pi pi-download"></i>
             <p>{{'sideBar.download' | translate}}</p>
           </button>
         </a>
       </div>
       <div class="smallerMiddleButtons">
-        <button class="sideButton" (click)="toggleThemeButtonAction()">
+        <button class="sideButton" (click)="toggleThemeButtonAction()" type="button">
           <span class="material-symbols-rounded" title="{{'sideBar.changeTheme' | translate}}">
             {{ themeToggleService.isLightTheme() ? 'light_mode' : 'dark_mode' }}
           </span>
         </button>
-        <button class="sideButton" (click)="toggleLanguageSelection()" title="{{'sideBar.changeLanguage' | translate}}">
+        <button class="sideButton" (click)="toggleLanguageSelection()" title="{{'sideBar.changeLanguage' | translate}}"
+                type="button">
           <span class="material-symbols-rounded">language</span>
         </button>
       </div>

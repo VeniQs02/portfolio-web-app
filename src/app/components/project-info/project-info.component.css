@@ -29,6 +29,10 @@ ul:first-of-type{
 li{
   margin-left: 30px;
 }
+li:first-of-type{
+  list-style: none;
+  margin-left: 0;
+}
 
 a{
   color: #f28954;

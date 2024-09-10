@@ -1,15 +1,15 @@
 <div class="topButtonPanel">
   <button
-    [ngClass]="{ 'selectedButton': selectedTab.value === 'pepnet' }"
+    [ngClass]="{ 'selectedButton': selectedTab.value === 'pepnet' }" type="button"
     id="pepnet" class="selectedButton" (click)="switchSelectedTab('pepnet')">{{ 'myProjects.eBakery' | translate }}</button>
   <button
-    [ngClass]="{ 'selectedButton': selectedTab.value === 'repositorylister' }"
+    [ngClass]="{ 'selectedButton': selectedTab.value === 'repositorylister' }" type="button"
     id="repositorylister" (click)="switchSelectedTab('repositorylister')">{{ 'myProjects.githubApi' | translate }}</button>
   <button
-    [ngClass]="{ 'selectedButton': selectedTab.value === 'medpics' }"
+    [ngClass]="{ 'selectedButton': selectedTab.value === 'medpics' }" type="button"
     id="medpics" (click)="switchSelectedTab('medpics')">{{ 'myProjects.medpics' | translate }}</button>
   <button
-    [ngClass]="{ 'selectedButton': selectedTab.value === 'scheduleapp' }"
+    [ngClass]="{ 'selectedButton': selectedTab.value === 'scheduleapp' }" type="button"
     id="scheduleapp" (click)="switchSelectedTab('scheduleapp')">{{ 'myProjects.scheduler' | translate }}</button>
 </div>
 <div class="displayedProject">
