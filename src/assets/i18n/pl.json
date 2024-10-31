@@ -72,6 +72,12 @@
       "heading": "Grafik montażysta",
       "subHead": "Kilkanaście projektów | Brandbo",
       "desc": "Koordynator projektu znalazł mnie przez grupy na Facebooku, gdzie oferowałem swoje usługi jako grafik montażysta. Pracowałem nad różnymi projektami - głównie samodzielnie - od prostych animacji, przez montaże filmów, po tworzenie grafik koncepcyjnych na potrzeby nowych produktów firmy."
+    },
+    "mobileDev": {
+      "heading": "Junior mobile developer",
+      "subHead": "Pracuje obecnie od 10.2024 | 9Bits",
+      "desc1": "Pierwsza długoterminowa praca programistyczna, w którą na dodatek wszedłem bez żadnej wiedzy o programowaniu w Androidzie. Po intensywnym tygodniu poznałem podstawy Kotlina, potrzebnych bibliotek oraz struktury projektu. Już niedługo potem implementowałem taski z jiry do aplikacji.",
+      "desc2": "Z ciekawszych doświadczeń - brałem udział w trenowaniu modeli odpowiedzialnych za przetwarzanie komend głosowych. Nagrywane odbywały się przez okres całego dnia \"w terenie\", przez co zebraliśmy dokładne statystyki oraz te nagrania pozwoliły lepiej dostosować model do środowiska, w którym aplikacja rzeczywiście będzie użytkowana."
     }
   }
 }

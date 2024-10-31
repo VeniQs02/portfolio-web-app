@@ -8,25 +8,30 @@
   color: #161A27;
   border-radius: 10px;
 }
-.firstTwo, .lastTwo{
+.firstTwo, .middleTwo, .lastOne{
   display: flex;
+  justify-content: center;
 }
 .workPlace{
   padding: 20px;
   width: 50%;
   font-size: smaller;
 }
+.lastOne .workPlace {
+  width: 80%
+}
 p{
+  text-align: justify;
+}
+p:last-of-type{
   border-bottom: 1px solid #EF6F2E;
   padding-bottom: 5px;
-  text-align: justify;
-
 }
 h3, h5{
   margin: 10px 0;
 }
 @media screen and (max-width: 900px) {
-  .firstTwo, .lastTwo {
+  .firstTwo, .middleTwo {
     flex-direction: column;
     align-items: center;
   }

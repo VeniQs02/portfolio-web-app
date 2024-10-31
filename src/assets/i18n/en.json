@@ -72,6 +72,12 @@
       "heading": "Freelance Photo/Video Editor",
       "subHead": "Several projects | Brandbo",
       "desc": "The project coordinator found me through Facebook groups where I was offering my services as a video editor. I worked on various projects - mostly alone - ranging from simple animations to video edits and creating concept graphics for the company's new products."
+    },
+    "mobileDev": {
+      "heading": "Junior mobile developer",
+      "subHead": "Currently working since 10.2024 | 9Bits",
+      "desc1": "This is my first long-term programming job, which i jumped into without any prior knowledge of Android development. After an intensive week, I learned the basics of Kotlin, the necessary libraries, and project structure. Shortly after, I began implementing tasks from Jira into the application.",
+      "desc2": "Among my more interesting experiences - I participated in training models responsible for processing voice commands. The recordings took place throughout the day \"in the field\", allowing us to gather accurate statistics and making the model more suitablle to the environment in which the application will actually be used."
     }
   }
 }

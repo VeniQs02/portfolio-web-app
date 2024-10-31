@@ -7,7 +7,7 @@ Pracuje obecnie od 10.2024 | 9Bits
 
 Pierwsza długoterminowa praca programistyczna, w którą na dodatek wszedłem bez żadnej wiedzy o programowaniu w Androidzie.
 Po intensywnym tygodniu poznałem podstawy Kotlina, potrzebnych bibliotek oraz struktury projektu. Już niedługo potem implementowałem
-taski z jiry do aplikacji. 
+taski z jiry do aplikacji.
 
 Z ciekawszych doświadczeń - brałem udział w trenowaniu modeli odpowiedzialnych za przetwarzanie komend głosowych. Nagrywane odbywały się
 przez okres całego dnia "w terenie", przez co zebraliśmy dokładne statystyki oraz te nagrania pozwoliły lepiej dostosować model do środowiska,
@@ -23,13 +23,9 @@ ___EN___
 Junior mobile developer
 Currently working since 10.2024 | 9Bits
 
-This is my first long-term programming job, which i jumped into without any prior knowledge of Android development. After an intensive week,
-I learned the basics of Kotlin, the necessary libraries, and project structure. Shortly after, I began implementing tasks from Jira
-into the application.
+This is my first long-term programming job, which i jumped into without any prior knowledge of Android development. After an intensive week, I learned the basics of Kotlin, the necessary libraries, and project structure. Shortly after, I began implementing tasks from Jira into the application.
 
-Among my more interesting experiences - I participated in training models responsible for processing voice commands. The recordings took
-place throughout the day "in the field", allowing us to gather accurate statistics and making the model more suitablle to the
-environment in which the application will actually be used.
+Among my more interesting experiences - I participated in training models responsible for processing voice commands. The recordings took place throughout the day "in the field", allowing us to gather accurate statistics and making the model more suitablle to the environment in which the application will actually be used.
 
 * Android Studio, Kotlin, Java
 * Room, Composable

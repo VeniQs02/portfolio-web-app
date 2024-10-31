@@ -40,7 +40,7 @@ aside{
   border-bottom: 1px solid #EF6F2E;
 }
 img{
-  border-radius: 50%;
+  border-radius: 20%;
   margin-bottom: 10px;
   height: 150px;
   width: 150px;
@@ -59,7 +59,7 @@ img{
   color: #EF6F2E;
 }
 .linkText{
-  margin: 5px;
+  margin: 15px 5px 5px 5px;
   transform: translateX(-15px);
 }
 .textContent{
