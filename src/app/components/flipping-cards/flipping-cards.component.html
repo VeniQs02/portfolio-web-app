@@ -10,10 +10,10 @@
     </div>
     <div class="rectangle">
       <div class="rectangle-content">
-        <p>{{ 'aboutMe.firstAge' | translate }}{{ getAge() }}{{ 'aboutMe.secondAge' | translate }}</p>
+        <p>{{ 'aboutMe.firstAge' | translate }}{{ getAge() }}{{ getAgeSuffix() }}</p>
       </div>
       <div class="rectangle-back">
-        <p>{{ 'aboutMe.firstAge2' | translate }}&shy;{{ 'aboutMe.secondAge2' | translate }}</p>
+        <p>{{ 'aboutMe.firstAge2A' | translate }}{{getHobbyAge()}}{{'aboutMe.firstAge2B' | translate }}&shy;{{ 'aboutMe.secondAge2' | translate }}</p>
       </div>
     </div>
   </div>

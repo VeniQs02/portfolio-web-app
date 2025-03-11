@@ -12,7 +12,6 @@ p{
   perspective: 1000px;
   color: #161A27;
   width: 100%;
-
 }
 
 .firstTwo, .secondTwo {
@@ -32,7 +31,6 @@ p{
   transform-style: preserve-3d;
   cursor: pointer;
   box-shadow: 0 0 50px -30px #EEEEEE;
-
 }
 
 .rectangle-content, .rectangle-back {
@@ -71,32 +69,33 @@ p{
 
 @media screen and (max-width: 1420px){
   .rectangle {
-    font-size: smaller;
+    font-size: 0.8em;
     width: 160px;
   }
 }
 @media screen and (max-width: 1200px){
   .rectangle {
-    font-size: larger;
+    font-size: 1em;
     width: 240px;
   }
 }
 @media screen and (max-width: 800px){
   .rectangle {
     width: 200px;
-    font-size: smaller;
+    font-size: 0.8em;
     height: 230px;
+  }
+}
+@media screen and (max-width: 650px){
+  .rectangle {
+    width: 30vw;
+    /*height: 250px;*/
   }
 }
 @media screen and (max-width: 600px){
   .rectangle {
     width: 35vw;
-    /*height: 250px;*/
-  }
-}
-@media screen and (max-width: 400px){
-  .rectangle {
     height: 200px;
-    font-size: 16px;
+    font-size: 0.6em;
   }
 }

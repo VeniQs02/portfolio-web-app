@@ -5,8 +5,8 @@ import {TranslateService} from "@ngx-translate/core";
   providedIn: 'root'
 })
 export class LanguageToggleService {
-  private languages = ['en', 'pl'];
-  private currentLanguage = 1;
+  private languages: string[] = ['en', 'pl'];
+  private currentLanguage: number = 1;
 
   constructor(private translate: TranslateService) {}
 
@@ -18,5 +18,9 @@ export class LanguageToggleService {
       this.currentLanguage = 1;
       this.translate.use(this.languages[this.currentLanguage]);
     }
+  }
+
+  public getCurrentLanguage():number {
+    return this.currentLanguage;
   }
 }

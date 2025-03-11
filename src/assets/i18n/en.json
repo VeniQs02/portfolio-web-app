@@ -6,7 +6,7 @@
     "changeTheme": "Change theme",
     "changeLanguage": "Change language",
     "intrested": "Interested?",
-    "reachOut": "Reach out to me!"
+    "reachOut": "Reach out!"
   },
   "aboutMe": {
     "heading": "A few things about me:",
@@ -14,7 +14,8 @@
     "myNameIs2": "I live in Białystok and I am looking for a job",
     "firstAge": "I am ",
     "secondAge": " years old",
-    "firstAge2": "Interested in programming for 6 years ",
+    "firstAge2A": "Interested in programming for ",
+    "firstAge2B": " years ",
     "secondAge2": "and intrested in technology since I was a child",
     "iFinished": "I graduated in Computer Science",
     "iFinished2": "Where I learned a lot about teamwork",
@@ -31,18 +32,18 @@
 
     "eBakery": "E-bakery shop",
     "eBakeryDesc1": "An e-bakery project that covers both the retail side of selling bakery products and tools for managing the shop from the employee's side. The project was developed over several months under the patronage of my supervisor - Dr. Wiesław Półjanowicz. This is the application on which I defended my bachelor's thesis titled \"Computerization of a small family business - project and implementation.\"",
-    "eBakeryDesc2": "This application was a big step forward for me, because most of my projects had either a front-end or back-end, with the other side being developed as fast as possible. Here, everything was refined. The application is responsive to various screen sizes, and the entire design of the site is my own. I wanted to test whether such an application could be built from scratch - without using libraries like Bootstrap or Material, while maintaining full project coherence. Most of the images visible on the site were created by DeepAI.",
+    "eBakeryDesc2": "This application was a big step forward for me, because most of my projects were either front-end or back-end focused. Here, both sides was refined. The application is responsive to various screen sizes, and the entire design of the site is my own. I wanted to test whether such an application could be built from scratch - without using libraries like Bootstrap or Material, while maintaining full project coherence. Most of the images visible on the site were created by DeepAI.",
 
-    "githubApi": "GitHub repository API",
+    "githubApi": "Repo browser",
     "githubApiDesc1": "It started as a recruitment task, where the only requirement was to fetch information about repositories and branches for a specific user. However, I took it a step further by securing the endpoint with SpringSecurity and creating a simple, readable user interface. I also designed the simple 'R' logo. The application is very basic, so it scales well on smaller devices.",
 
-    "medpics": "X-ray image analysis",
+    "medpics": "X-ray analysis",
     "medpicsDesc1": "In class, we dealt with the topic of medical image analysis involving image modification. We received a small task, which turned into a slightly larger project. The program iterates through several levels set by the user and offers the option to select the appropriate image modification. The goal of the program is to increase the clarity of the image.",
     "medpicsDesc2": "All images used in the project were taken from https://medpix.nlm.nih.gov/",
 
     "scheduler": "E-reservation",
-    "schedulerDesc1": "An application for scheduling equipment reservations. Initially created as a prototype for a company in Wasilków that rents industrial cleaning equipment for large areas. To save time, I utilized the benefits of today's tools - chatbots. This allowed me to minimize the time required to create such a demonstration site, which will be refined later.",
-    "schedulerDesc2": "Currently, it is just a simple front-end, serving only to demonstrate the concept. In the current version, there is no working back-end, but that will likely change soon."
+    "schedulerDesc1": "An application for scheduling equipment reservations. Created as a prototype for a company located in Wasilków that rents industrial cleaning equipment for large areas. To save time, I utilized the benefits of today's tools - chatbots. This allowed me to minimize the time required to create such a demonstration site, which will be refined later.",
+    "schedulerDesc2": "Currently, it is just a simple front-end, serving only to demonstrate the concept. In the current version, there is no working back-end, but I hope that will change soon :)"
   },
   "moreAboutMe": {
     "heading": "More about me:",
@@ -63,9 +64,8 @@
     "CS": {
       "heading": "Computer Science Studies",
       "subHead": "3 years | University of Białystok",
-      "desc": "Bachelor's studies, which I completed in 2024. During my studies, I had several more and less useful subjects, but I feel that I learned the most from group projects, which there were many of in the final year. Working in groups of up to 12 people, on projects that lasted several months. The main theme of the final year was the bachelor's thesis, which also taught me a lot.",
+      "desc": "Bachelor's studies, which I completed in 2024. During my studies, I had several more and less useful subjects, but I learned the most from group projects, which there were many of in the final year. Working in groups of up to 12 people, on projects that lasted several months. The main theme of the final year was the bachelor's thesis, which also taught me a lot.",
       "skill1": "Many programming languages",
-      "skill2": "Several frameworks",
       "skill3": "Databases - including Oracle SQL"
     },
     "freelance": {
@@ -76,8 +76,8 @@
     "mobileDev": {
       "heading": "Junior mobile developer",
       "subHead": "Currently working since 10.2024 | 9Bits",
-      "desc1": "This is my first long-term programming job, which i jumped into without any prior knowledge of Android development. After an intensive week, I learned the basics of Kotlin, the necessary libraries, and project structure. Shortly after, I began implementing tasks from Jira into the application.",
-      "desc2": "Among my more interesting experiences - I participated in training models responsible for processing voice commands. The recordings took place throughout the day \"in the field\", allowing us to gather accurate statistics and making the model more suitablle to the environment in which the application will actually be used."
+      "desc1": "This is my first commercial programming job, which i jumped into without any prior knowledge of Android development. After an intensive week, I learned the basics of Kotlin, shortly after, I began implementing tasks from Jira into projects. I learned a lot about managing legacy apps that are bigger in scale, while working as a part of a team.",
+      "desc2": "Among the projects I’ve worked on, it’s worth mentioning the applications for: Smyk, Leclerc and Eurocash."
     }
   }
 }

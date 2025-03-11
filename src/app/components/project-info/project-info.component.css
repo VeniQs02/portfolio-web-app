@@ -15,8 +15,8 @@ h3, p{
 }
 
 p{
-  font-size: 0.8em;
   text-align: justify;
+  font-size: 1em;
 }
 
 .technologies{
@@ -41,15 +41,33 @@ a{
 a:hover{
   color: #EF6F2E;
 }
-
+@media screen and (max-width: 900px) {
+  p, ul{
+    font-size: 0.8em;
+  }
+  h3{
+    font-size: 1em;
+  }
+}
 @media screen and (max-width: 750px){
   .technologies{
     flex-direction: column;
+    font-size: 1em;
   }
   ul:first-of-type{
     padding-right: 0;
     padding-bottom: 30px;
     border-right: none;
     border-bottom: #161A27 1px solid;
+  }
+}
+@media screen and (max-width: 600px) {
+  p{
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  p{
+    padding: 0 10px;
   }
 }

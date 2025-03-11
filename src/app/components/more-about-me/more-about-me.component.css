@@ -8,17 +8,17 @@
   color: #161A27;
   border-radius: 10px;
 }
-.firstTwo, .middleTwo, .lastOne{
+.itHelpJuniorAngularDevPar, .computerScienceVideoEditor, .juniorMobileDevPar{
   display: flex;
   justify-content: center;
 }
 .workPlace{
-  padding: 20px;
+  padding: 25px;
   width: 50%;
-  font-size: smaller;
+  font-size: 1em;
 }
-.lastOne .workPlace {
-  width: 80%
+.juniorMobileDevPar .workPlace {
+  width: 70%
 }
 p{
   text-align: justify;
@@ -31,7 +31,7 @@ h3, h5{
   margin: 10px 0;
 }
 @media screen and (max-width: 900px) {
-  .firstTwo, .middleTwo {
+  .itHelpJuniorAngularDevPar, .computerScienceVideoEditor {
     flex-direction: column;
     align-items: center;
   }
@@ -45,9 +45,26 @@ h3, h5{
     text-align: center;
     margin: 20px 0 0 0;
   }
+  p, ul{
+    font-size: 0.8em
+  }
+  .juniorMobileDevPar .workPlace {
+    width: 80%
+  }
+}
+@media screen and (max-width: 600px) {
+  .workPlace {
+    padding: 10px 20px;
+  }
+  h3{
+    font-size: 0.8em;
+  }
+  h5{
+    font-size: 0.6em;
+  }
 }
 @media screen and (max-width: 430px) {
   p, ul{
-    font-size: smaller
+    font-size: 0.8em
   }
 }

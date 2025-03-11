@@ -2,7 +2,7 @@ section{
   position: relative;
   z-index: 0;
   background-color: #161A27;
-  padding: 50px;
+  padding: 2em;
   margin: 5px 0 0 0;
   border-radius: 20px;
   color: #EEEEEE;
@@ -18,6 +18,11 @@ section{
 
   box-shadow: none;
 }
+@media screen and (max-width: 1150px){
+  section{
+    padding: 1em;
+  }
+}
 
 @media screen and (max-width: 600px){
   section{
@@ -27,7 +32,7 @@ section{
     padding: 10px 0;
     width: 100%;
     border-radius: 0;
-    margin: 0 0 20px 0;
+    margin: 0 0 0.2em 0;
   }
 }
 @media screen and (min-width: 1420px){
