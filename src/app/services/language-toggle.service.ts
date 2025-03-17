@@ -23,4 +23,8 @@ export class LanguageToggleService {
   public getCurrentLanguage():number {
     return this.currentLanguage;
   }
+
+  public getCurrentLanguageAbbreviation():string{
+    return this.languages[this.currentLanguage].toUpperCase();
+  }
 }
